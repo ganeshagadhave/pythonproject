@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/YOUR_ORG/hello-python-k8s.git
+    repoURL: https://github.com/ganeshagadhave/pythonproject
     targetRevision: HEAD
     path: k8s
   destination:

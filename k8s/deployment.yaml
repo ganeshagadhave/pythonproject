@@ -11,10 +11,10 @@ spec:
     metadata:
       labels:
         app: hello-app
-  spec:
-    containers:
-      - name: hello-app
-        image: hello-app:latest
-        imagePullPolicy: IfNotPresent
-        ports:
-          - containerPort: 8080
+    spec:
+      containers:
+        - name: hello-app
+          image: hello-app:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
