@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello World This is first python app hosted in k8s"}
 
 
 @app.get("/hello/{name}")
